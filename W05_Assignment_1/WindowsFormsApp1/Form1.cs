@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,102 @@ namespace WindowsFormsApp1
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Dll1.DestroyNImage(m_Img);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string path;
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                path = saveFileDialog1.FileName;
+
+                if (Dll1.SaveBMP(m_Img, path))
+                {
+
+                    hbitmap = Dll1.GetBitmap(m_Img);
+
+                    if (pictureBox1.Image != null)
+                        pictureBox1.Image.Dispose();
+                    pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+                    pictureBox1.Refresh();
+                }
+                else
+                    MessageBox.Show("Error", "Error");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Dll1.MeanFilter3x3(m_Img);
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            Dll1.SobelFilter(m_Img);
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+            Dll1.LaplacianFilter(m_Img);
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            Dll1.Threshold(m_Img);
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            Dll1.AdaptiveMeanThreshold(m_Img, int.Parse(textBox1.Text));
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+            Dll1.AdaptiveGaussianThreshold(m_Img, int.Parse(textBox1.Text));
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
         }
     }
 }

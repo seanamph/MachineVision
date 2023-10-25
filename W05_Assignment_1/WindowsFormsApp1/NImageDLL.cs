@@ -27,8 +27,29 @@ namespace MyApp
         [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi, EntryPoint = "LoadBMP")]
         public extern static bool LoadBMP(IntPtr m_Img, string filename);
 
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi, EntryPoint = "SaveBMP")]
+        public extern static bool SaveBMP(IntPtr m_Img, string filename);
+
         [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "GetBitmap")]
         public extern static IntPtr GetBitmap(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "GetBitmap")]
+        public extern static void MeanFilter3x3(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "SobelFilter")]
+        public extern static void SobelFilter(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "LaplacianFilter")]
+        public extern static void LaplacianFilter(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "Threshold")]
+        public extern static void Threshold(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "AdaptiveMeanThreshold")]
+        public extern static void AdaptiveMeanThreshold(IntPtr m_Img, int blockSize);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "AdaptiveGaussianThreshold")]
+        public extern static void AdaptiveGaussianThreshold(IntPtr m_Img, int blockSize);
 
     }
 }

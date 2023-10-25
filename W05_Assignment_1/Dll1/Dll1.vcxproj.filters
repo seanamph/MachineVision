@@ -21,10 +21,10 @@
     <ClCompile Include="Unmanaged_Calculator.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="NImage.cpp">
+    <ClCompile Include="NImageDLL.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="NImageDLL.cpp">
+    <ClCompile Include="NImage.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
