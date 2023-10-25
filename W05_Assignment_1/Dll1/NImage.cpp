@@ -99,7 +99,7 @@ int   NImage::GetBPP()
 	return(nBitCount);
 }
 
-int	  NImage::GetPitch()
+__int64	  NImage::GetPitch()
 {
 	return(GetPixelAddress(0,1)-GetPixelAddress(0,0));
 } 

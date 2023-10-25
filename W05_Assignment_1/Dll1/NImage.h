@@ -44,7 +44,7 @@ public:
 	int   GetWidth();
 	int   GetHeight();
 	int   GetBPP();
-	int	  GetPitch();
+	__int64	  GetPitch();
 	int	  GetMaxColorTableEntries();
   
 	BYTE* GetPixelAddress(int x,int y);

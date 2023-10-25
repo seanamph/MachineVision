@@ -18,6 +18,9 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Unmanaged_Calculator.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
     <ClCompile Include="NImage.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
@@ -26,6 +29,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Unmanaged_Calculator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
     <ClInclude Include="NImage.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
