@@ -1,4 +1,7 @@
 
+
+#include <windows.h>
+
 struct TAB 																	// 線段結構
 {                                
   int  label,x1,x2,y,flag;                                           
@@ -24,6 +27,6 @@ int   SingleTrack(BYTE **list,int i,int j,int iop,int *code,int flag,
 				  int wid,int hei);											// 輪廓追蹤
 				  
 // Practice from line 27 to line 29
-void  CentreGravity(struct TAB *tab,int dot_n,double *px,double *py)		// 計算區域重心
+void  CentreGravity(struct TAB* tab, int dot_n, double* px, double* py);		// 計算區域重心
 int   Perimeter(int *code); 												// 計算周長
 void  OutRectangle(int *code,int *x1,int *y1,int *x2,int *y2);				// 計算外接矩形

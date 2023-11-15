@@ -7,7 +7,7 @@ int LineCoding(BYTE **list,int wid,int hei)
 	int		num,an;
     
  	struct TAB *tab = (struct TAB *) malloc(sizeof(struct TAB)*MAX_DOTN);
-	if (tab==NULL)  return;
+	if (tab==NULL)  return 0;
 
 	num = CreateTab(list,0,0,wid,hei,tab);
 	SearchArea(tab,num,8);

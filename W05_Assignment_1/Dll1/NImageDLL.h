@@ -36,6 +36,9 @@ MYDLL_API void __cdecl Threshold(LONG_PTR m_Img);
 
 MYDLL_API void __cdecl AdaptiveMeanThreshold(LONG_PTR m_Img, int blockSize);
 MYDLL_API void __cdecl AdaptiveGaussianThreshold(LONG_PTR m_Img, int blockSize);
+MYDLL_API int __cdecl Blob_Labelling(LONG_PTR m_Img);
+MYDLL_API int __cdecl Contour_Tracing(LONG_PTR m_Img);
+MYDLL_API int __cdecl CalculateBlobArea(LONG_PTR m_Img);
 
 #ifdef __cplusplus
 }

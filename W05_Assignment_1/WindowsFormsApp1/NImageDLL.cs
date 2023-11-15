@@ -51,5 +51,17 @@ namespace MyApp
         [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "AdaptiveGaussianThreshold")]
         public extern static void AdaptiveGaussianThreshold(IntPtr m_Img, int blockSize);
 
+
+        // Lab_12 Blob_Labelling
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "Blob_Labelling")]
+        public extern static int Blob_Labelling(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "Contour_Tracing")]
+        public extern static int Contour_Tracing(IntPtr m_Img);
+
+        [DllImport("Dll1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, EntryPoint = "CalculateBlobArea")]
+        public extern static int CalculateBlobArea(IntPtr m_Img);
+
+
     }
 }

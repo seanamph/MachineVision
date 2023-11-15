@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyApp;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
@@ -149,6 +150,37 @@ namespace WindowsFormsApp1
                 pictureBox1.Image.Dispose();
             pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
             pictureBox1.Refresh();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+            textBox1.Text =  Dll1.Blob_Labelling(m_Img).ToString();
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+            textBox1.Text = Dll1.Contour_Tracing(m_Img).ToString();
+            hbitmap = Dll1.GetBitmap(m_Img);
+
+            if (pictureBox1.Image != null)
+                pictureBox1.Image.Dispose();
+            pictureBox1.Image = System.Drawing.Image.FromHbitmap(hbitmap);
+            pictureBox1.Refresh();
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+            textBox1.Text = Dll1.CalculateBlobArea(m_Img).ToString();
         }
     }
 }

@@ -101,3 +101,21 @@
 
 		Img->AdaptiveGaussianThreshold(blockSize);
 	}
+	MYDLL_API int __cdecl Blob_Labelling(LONG_PTR m_Img)
+	{
+		NImage* Img = (NImage*)m_Img;
+
+		return Img->Blob_Labelling();
+	}
+	MYDLL_API int __cdecl Contour_Tracing(LONG_PTR m_Img)
+	{
+		NImage* Img = (NImage*)m_Img;
+
+		return Img->Contour_Tracing();
+	}
+	MYDLL_API int __cdecl CalculateBlobArea(LONG_PTR m_Img)
+	{
+		NImage* Img = (NImage*)m_Img;
+
+		return Img->CalculateBlobArea();
+	}
