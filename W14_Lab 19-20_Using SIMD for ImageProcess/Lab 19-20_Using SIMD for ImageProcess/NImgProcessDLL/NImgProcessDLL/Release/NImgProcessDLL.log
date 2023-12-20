@@ -1,0 +1,10 @@
+﻿  dllmain.cpp
+  NImage.cpp
+  NImgProcess.cpp
+c:\users\hank\desktop\exercise_4\lab 16_using simd for imageprocess\nimgprocessdll\nimgprocessdll\nimgprocess.cpp(223): warning C4309: '引數': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+  NImgProcessDLL.cpp
+     正在建立程式庫 C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\Release\NImgProcessDLL.lib 和物件 C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\Release\NImgProcessDLL.exp
+  正在產生程式碼
+  All 50 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  NImgProcessDLL.vcxproj -> C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\Release\NImgProcessDLL.dll

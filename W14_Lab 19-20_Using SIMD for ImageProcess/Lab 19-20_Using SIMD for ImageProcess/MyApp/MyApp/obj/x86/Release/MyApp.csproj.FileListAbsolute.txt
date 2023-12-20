@@ -1,0 +1,39 @@
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x86\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x86\Release\MyApp.csprojAssemblyReference.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csprojAssemblyReference.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 6_Using PInvoke for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\bin\x86\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\bin\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\bin\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Assignment_1\MyApp\MyApp\obj\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\bin\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\MyApp\MyApp\obj\x86\Release\MyApp.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\bin\Debug\MyApp.exe.config
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\bin\Debug\MyApp.exe
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\bin\Debug\MyApp.pdb
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.csproj.AssemblyReference.cache
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.Form1.resources
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.Properties.Resources.resources
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.csproj.GenerateResource.cache
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.csproj.CoreCompileInputs.cache
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.exe
+C:\GitHub\MachineVision\W13_Lab 17_Process of circle measurement\Lab 17_Reference\Project\MyApp\MyApp\obj\Debug\MyApp.pdb

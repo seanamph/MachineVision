@@ -1,0 +1,19 @@
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x64\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x64\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\bin\x64\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.csprojAssemblyReference.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.exe
+C:\Users\Hank\Desktop\Implementation\Projects\Lab 4_Using PInvoke for NImage\MyApp\MyApp\obj\x64\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\bin\x64\Release\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\bin\x64\Release\MyApp.exe.config
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\obj\x64\Release\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_5\MyApp\MyApp\bin\x64\Release\MyApp.pdb

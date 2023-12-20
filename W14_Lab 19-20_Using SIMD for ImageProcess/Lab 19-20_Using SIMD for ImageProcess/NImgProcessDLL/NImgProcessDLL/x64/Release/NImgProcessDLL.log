@@ -1,0 +1,11 @@
+﻿  dllmain.cpp
+  NImage.cpp
+c:\users\hank\desktop\exercise_4\lab 16_using simd for imageprocess\nimgprocessdll\nimgprocessdll\nimage.cpp(105): warning C4244: 'return': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  NImgProcess.cpp
+c:\users\hank\desktop\exercise_4\lab 16_using simd for imageprocess\nimgprocessdll\nimgprocessdll\nimgprocess.cpp(178): warning C4309: '引數': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+  NImgProcessDLL.cpp
+     正在建立程式庫 C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\x64\Release\NImgProcessDLL.lib 和物件 C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\x64\Release\NImgProcessDLL.exp
+  正在產生程式碼
+  All 46 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  NImgProcessDLL.vcxproj -> C:\Users\Hank\Desktop\Exercise_4\Lab 16_Using SIMD for ImageProcess\NImgProcessDLL\x64\Release\NImgProcessDLL.dll

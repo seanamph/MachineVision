@@ -1,0 +1,10 @@
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\bin\x86\Debug\MyApp.exe.config
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\bin\x86\Debug\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\bin\x86\Debug\MyApp.pdb
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.csprojAssemblyReference.cache
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.Form1.resources
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.Properties.Resources.resources
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.csproj.GenerateResource.cache
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.exe
+C:\Users\Hank\Desktop\Exercise_4\Lab 18_Using PInvoke for ObjectDetection\MyApp\MyApp\obj\x86\Debug\MyApp.pdb
