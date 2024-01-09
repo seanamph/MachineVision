@@ -57,7 +57,7 @@ int	NObject::Contour_Tracing(NImage* pImg, int blob_num, int *ct_x, int *ct_y)
 	int		k = 0;
 	int		chain_count = 0;
 	int		inc[8][2] = { {+1, 0},{+1,-1},{ 0,-1},{-1,-1},
-						{-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// Ãì½X¤¤¾FÂI»P¤¤¤ßÂIªº§¤¼Ð®t­Èªí
+						{-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// ï¿½ï¿½Xï¿½ï¿½ï¿½Fï¿½Iï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ð®tï¿½Èªï¿½
 
 	GetImageParament(pImg);
 
@@ -72,7 +72,7 @@ int	NObject::Contour_Tracing(NImage* pImg, int blob_num, int *ct_x, int *ct_y)
 
 	chain_count = SingleTrack(list, start_x, start_y, 4, m_chain, 8, nWidth, nHeight);
 
-	int x = m_chain[0];														// Ãì½Xªíªº«e¤T­Ó¤¸¯À¤À§O¥Nªí °_©l®y¼ÐX¡B®y¼ÐY»PÃì½X¼Æ¶q
+	int x = m_chain[0];														// ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Tï¿½Ó¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Nï¿½ï¿½ ï¿½_ï¿½lï¿½yï¿½ï¿½Xï¿½Bï¿½yï¿½ï¿½Yï¿½Pï¿½ï¿½Xï¿½Æ¶q
 	int y = m_chain[1];
 	for (int i = 0; i < m_chain[2]; i++)
 	{
@@ -141,7 +141,7 @@ bool NObject::CreateMaskFromObject(NImage* pMask_Img, int blob_num)
 
 	if (m_tab == NULL || blob_count <= 0)	return false;
 
-	// ±N¿ï¾Üªº Blob ¶ñ¦â(255)
+	// ï¿½Nï¿½ï¿½Üªï¿½ Blob ï¿½ï¿½ï¿½(255)
 	for (i= blob_area[blob_num][0]; i < blob_area[blob_num + 1][0]; i++)
 	{
 		k = m_tab[i].y;
@@ -451,7 +451,7 @@ int NObject::SingleTrack(BYTE **list, int i, int j, int iop, int *code, int flag
 	int  n, n1, u, ki, kj, ns, ne;
 
 	int  inc[8][2] = { {+1, 0},{+1,-1},{ 0,-1},{-1,-1},
-					 {-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// Ãì½X¤¤¾FÂI»P¤¤¤ßÂIªº§¤¼Ð®t­Èªí
+					 {-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// ï¿½ï¿½Xï¿½ï¿½ï¿½Fï¿½Iï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ð®tï¿½Èªï¿½
 
 	if (flag == 4) u = 2;
 	else         u = 1;
@@ -474,7 +474,7 @@ int NObject::SingleTrack(BYTE **list, int i, int j, int iop, int *code, int flag
 
 			if (ki < wid && ki >= 0 && kj < hei && kj >= 0)
 			{
-				if (list[kj][ki] > 0) 										// ¥i¦b¦¹³]©w»Ö­È
+				if (list[kj][ki] > 0) 										// ï¿½iï¿½bï¿½ï¿½ï¿½]ï¿½wï¿½Ö­ï¿½
 					break;
 			}
 		}
@@ -527,7 +527,7 @@ void NObject::OutRectangle(int *code, int *x1, int *y1, int *x2, int *y2)
 {
 	int  i, n, k, x, y, xi, yi, xa, ya;
 	int  inc[8][2] = { {+1, 0},{+1,-1},{ 0,-1},{-1,-1},
-					 {-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// Ãì½X¤¤¾FÂI»P¤¤¤ßÂIªº§¤¼Ð®t­Èªí
+					 {-1, 0},{-1,+1},{ 0,+1},{+1,+1} };					// ï¿½ï¿½Xï¿½ï¿½ï¿½Fï¿½Iï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ð®tï¿½Èªï¿½
 
 	n = code[2];
 	xi = xa = x = code[0];

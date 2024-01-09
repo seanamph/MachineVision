@@ -1,0 +1,11 @@
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\bin\Debug\Dll1.dll
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\GitHub\MachineVision\W05_Assignment_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

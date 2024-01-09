@@ -14,7 +14,7 @@
 #define		MAX_DOTN  100000
 #define		MAX_NUM   60000
 
-struct TAB 																				// ½u¬qµ²ºc
+struct TAB 																				// ï¿½uï¿½qï¿½ï¿½ï¿½c
 {
 	int  label, x1, x2, y, flag;
 };
@@ -44,21 +44,21 @@ private:
 	BYTE** 	Create2DList(NImage* pImg);
 	void  	Release2DList(BYTE** list);
 
-	int		LineCoding(BYTE **list, struct TAB *tab,int area[][2], int &tab_size, int wid, int hei);	// ³sµ²Åé½u¬q½s½X
-	void	SearchArea(struct TAB *tab, int num, int flag);  							// ¥H4/8³s³q¤è¦¡·j¯Á³s³q°Ï°ì(½u¬q½s½X¨BÆJ2, 3, 4)
-	int		CreateLineTableIndex(struct TAB *tab, int num, int area[][2], int a_n);		// «Ø¥ß³s³q°Ï°ì¸ê®Æ¯Á¤Þªí
+	int		LineCoding(BYTE **list, struct TAB *tab,int area[][2], int &tab_size, int wid, int hei);	// ï¿½sï¿½ï¿½ï¿½ï¿½uï¿½qï¿½sï¿½X
+	void	SearchArea(struct TAB *tab, int num, int flag);  							// ï¿½H4/8ï¿½sï¿½qï¿½è¦¡ï¿½jï¿½ï¿½ï¿½sï¿½qï¿½Ï°ï¿½(ï¿½uï¿½qï¿½sï¿½Xï¿½Bï¿½J2, 3, 4)
+	int		CreateLineTableIndex(struct TAB *tab, int num, int area[][2], int a_n);		// ï¿½Ø¥ß³sï¿½qï¿½Ï°ï¿½ï¿½Æ¯ï¿½ï¿½Þªï¿½
 
-	int		CreateTab(BYTE **list, int x, int y, int wid, int hei, struct TAB *tab);  	// «Ø¥ß½u¬qªí¨Ãªì©l¤Æ(½u¬q½s½X¨BÆJ1)
-	int		MakeLabel(struct TAB *tab, int num, int data[][2], int flag);				// ¹ï½u¬q§@¼Ð°O(½u¬q½s½X¨BÆJ2)
-	void	UniformLabel(struct TAB *tab, int num, int data[][2], int d_num);			// ²Î¤@½u¬q½s½X(½u¬q½s½X¨BÆJ3)
-	void	SortLabel(struct TAB *tab, int num);										// ½u¬q«ö¼Ð°O±Æ§Ç(½u¬q½s½X¨BÆJ4)
+	int		CreateTab(BYTE **list, int x, int y, int wid, int hei, struct TAB *tab);  	// ï¿½Ø¥ß½uï¿½qï¿½ï¿½ï¿½Ãªï¿½lï¿½ï¿½(ï¿½uï¿½qï¿½sï¿½Xï¿½Bï¿½J1)
+	int		MakeLabel(struct TAB *tab, int num, int data[][2], int flag);				// ï¿½ï¿½uï¿½qï¿½@ï¿½Ð°O(ï¿½uï¿½qï¿½sï¿½Xï¿½Bï¿½J2)
+	void	UniformLabel(struct TAB *tab, int num, int data[][2], int d_num);			// ï¿½Î¤@ï¿½uï¿½qï¿½sï¿½X(ï¿½uï¿½qï¿½sï¿½Xï¿½Bï¿½J3)
+	void	SortLabel(struct TAB *tab, int num);										// ï¿½uï¿½qï¿½ï¿½ï¿½Ð°Oï¿½Æ§ï¿½(ï¿½uï¿½qï¿½sï¿½Xï¿½Bï¿½J4)
 
-	void	CentreGravity(struct TAB *tab, int dot_n, double *px, double *py);			// ­pºâ°Ï°ì­«¤ß
+	void	CentreGravity(struct TAB *tab, int dot_n, double *px, double *py);			// ï¿½pï¿½ï¿½Ï°ì­«ï¿½ï¿½
 
 	int		SingleTrack(BYTE **list, int i, int j, int iop, int *code, int flag,
-						int wid, int hei);												// ½ü¹ø°lÂÜ
-	int		Perimeter(int *code); 														// ­pºâ©Pªø
-	void	OutRectangle(int *code, int *x1, int *y1, int *x2, int *y2);				// ­pºâ¥~±µ¯x§Î
+						int wid, int hei);												// ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½
+	int		Perimeter(int *code); 														// ï¿½pï¿½ï¿½Pï¿½ï¿½
+	void	OutRectangle(int *code, int *x1, int *y1, int *x2, int *y2);				// ï¿½pï¿½ï¿½~ï¿½ï¿½ï¿½xï¿½ï¿½
 
 public:
 	NObject();
@@ -66,13 +66,13 @@ public:
 
 public:
 	//member functions
-	int		Blob_Labelling(NImage* pImg);												// ³sµ²Åé¼ÐÅÒ¤Æ(½u¬q½s½X)
-	int		Contour_Tracing(NImage* pImg, int blob_num, int *ct_x, int  *ct_y);			// ½ü¹ø°lÂÜ
-	int		Area(int blob_num);															// ­pºâ­±¿n
-	int		Blob_Count();																// ¦^¶Ç­Ó¼Æ
+	int		Blob_Labelling(NImage* pImg);												// ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¤ï¿½(ï¿½uï¿½qï¿½sï¿½X)
+	int		Contour_Tracing(NImage* pImg, int blob_num, int *ct_x, int  *ct_y);			// ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½
+	int		Area(int blob_num);															// ï¿½pï¿½â­±ï¿½n
+	int		Blob_Count();																// ï¿½^ï¿½Ç­Ó¼ï¿½
 
-	bool	Rectangle(int blob_num, int *start_x, int *start_y, int *rect_w, int *rect_h);// ­pºâ¥~±µ¯x§Î
-	bool	CreateMaskFromObject(NImage* pMask_Img, int blob_num);						// §Q¥Î Blob °µ¤G­È¤Æ¾B¸n
+	bool	Rectangle(int blob_num, int *start_x, int *start_y, int *rect_w, int *rect_h);// ï¿½pï¿½ï¿½~ï¿½ï¿½ï¿½xï¿½ï¿½
+	bool	CreateMaskFromObject(NImage* pMask_Img, int blob_num);						// ï¿½Qï¿½ï¿½ Blob ï¿½ï¿½ï¿½Gï¿½È¤Æ¾Bï¿½n
 };
 
 #endif		//!_NOBJECT_H

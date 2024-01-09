@@ -1,0 +1,42 @@
+﻿  dllmain.cpp
+  NGauge.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NGaugeDLL.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NImage.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(318,12): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(335,46): warning C4244: '+=': 將 '_Ty' 轉換為 'int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=__int64
+          ]
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(620,6): warning C4101: 'localMean': 未參考的區域變數
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(682,14): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(683,15): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(663,6): warning C4101: 'localMean': 未參考的區域變數
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(707,6): warning C4101: 'localMean': 未參考的區域變數
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(1102,6): warning C4101: 'localMean': 未參考的區域變數
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.cpp(1101,17): warning C4101: 'lpBuf': 未參考的區域變數
+  NImageDLL.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NImgProcess.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImgProcess.cpp(236,31): warning C4309: '引數': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImgProcess.cpp(380,13): warning C4101: 'fy': 未參考的區域變數
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImgProcess.cpp(380,9): warning C4101: 'fx': 未參考的區域變數
+  NImgProcessDLL.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NObject.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NObject.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NObject.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NObjectDLL.cpp
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NObject.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\GitHub\MachineVision\W05_Assignment_1\Dll1\NImage.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Unmanaged_Calculator.cpp
+  正在產生程式碼...
+     正在建立程式庫 C:\GitHub\MachineVision\W05_Assignment_1\Dll1\x64\Debug\Dll1.lib 和物件 C:\GitHub\MachineVision\W05_Assignment_1\Dll1\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\GitHub\MachineVision\W05_Assignment_1\Dll1\x64\Debug\Dll1.dll
