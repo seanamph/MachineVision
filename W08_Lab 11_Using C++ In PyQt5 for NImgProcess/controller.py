@@ -19,7 +19,7 @@ class MainWindow_controller(QtWidgets.QMainWindow):
 
     def display_img(self):
         NImg = ImageClass()
-		NImg2 = ImageClass()
+        NImg2 = ImageClass()
         NImgPro = ImgProcessClass()
 		
         self.img = NImg.LoadBMP(self.img_path)
@@ -30,18 +30,18 @@ class MainWindow_controller(QtWidgets.QMainWindow):
         self.ui.label.setPixmap(QPixmap.fromImage(self.qimg))
         self.ui.label.adjustSize()
 		
-		if (NImgPro.Inverse(NImg.GetHandle())): self.img2 = NImg.ReturnArray()
+        if (NImgPro.Inverse(NImg.GetHandle())): self.img2 = NImg.ReturnArray()
         self.qimg2 = QImage(self.img2.data, width, height, bytesPerline, QImage.Format_Grayscale8)
         self.ui.label_2.setPixmap(QPixmap.fromImage(self.qimg2))
         self.ui.label_2.adjustSize()
 		
-		if (NImgPro.SingleThresholding(self.img, 100)): self.img3 = NImg.ReturnArray()
+        if (NImgPro.SingleThresholding(self.img, 100)): self.img3 = NImg.ReturnArray()
         self.qimg3 = QImage(self.img3.data, width, height, bytesPerline, QImage.Format_Grayscale8)
         self.ui.label_3.setPixmap(QPixmap.fromImage(self.qimg3))
         self.ui.label_3.adjustSize()
 		
         self.img4 = NImg2.ReSize(NImg.GetWidth(), NImg.GetHeight())
-		if (NImgPro.OtsuThresholding(NImg.GetHandle(),NImg2.GetHandle())): self.img4 = NImg2.ReturnArray()
+        if (NImgPro.OtsuThresholding(NImg.GetHandle(),NImg2.GetHandle())): self.img4 = NImg2.ReturnArray()
         self.qimg4 = QImage(self.img4.data, width, height, bytesPerline, QImage.Format_Grayscale8)
         self.ui.label_4.setPixmap(QPixmap.fromImage(self.qimg4))
         self.ui.label_4.adjustSize()

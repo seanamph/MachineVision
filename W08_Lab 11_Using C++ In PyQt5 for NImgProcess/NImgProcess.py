@@ -1,7 +1,7 @@
 import numpy as np
 from ctypes import * 
 
-lib2 = CDLL('NImgProcessDLL.dll');
+lib2 = CDLL('Dll1.dll');
 
 lib2.CreateNImgProcess.restype = POINTER(c_ulong)
 lib2.DestroyNImgProcess.argtypes = [POINTER(c_ulong)]

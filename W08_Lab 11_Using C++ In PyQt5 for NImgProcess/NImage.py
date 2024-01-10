@@ -1,7 +1,7 @@
 import numpy as np
 from ctypes import * 
 
-lib = CDLL('NImageDLL.dll');
+lib = CDLL('Dll1.dll');
 
 lib.CreateNImage.restype = POINTER(c_ulong)
 lib.DestroyNImage.argtypes = [POINTER(c_ulong)]

@@ -1,7 +1,7 @@
 #from C++Lib import AddClass
 from ctypes import * 
 
-lib = CDLL('c:\python_test\MyDLL.dll');
+lib = CDLL('C:\GitHub\MachineVision\W05_Assignment_1\Dll1\x64\Debug\Dll1.dll');
 
 lib.CreateMathTool.restype = POINTER(c_ulong)
 lib.DestroyMathTool.argtypes = [POINTER(c_ulong)]

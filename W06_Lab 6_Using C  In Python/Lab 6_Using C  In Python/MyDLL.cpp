@@ -4,7 +4,7 @@
 
 
 // 這是匯出函式的範例。
-MYDLL_API int __cdecl Fibo_C(int n)
+int Fibo_C(int n)
 {
 	if (n < 2)
 		return 1;
